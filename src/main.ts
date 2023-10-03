@@ -15,7 +15,7 @@ const start = async () => {
     .setTitle('User role Project')
     .setDescription("Rest API")
     .setVersion("1.0.0")
-    .addTag("nestJS, Postgress, Sequielize")
+    .addTag("NestJS, Postgress, Sequelize")
     .build();
 
     const document = SwaggerModule.createDocument(app,config)
